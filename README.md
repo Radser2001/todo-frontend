@@ -15,7 +15,7 @@
 Hosted on Heroku.
 Backend repository link: https://github.com/Radser2001/todo-backend
 
-</hr>
+<hr/>
 
 # Getting Started with Create React App
 
