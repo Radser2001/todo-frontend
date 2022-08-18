@@ -2,6 +2,7 @@ import "./App.css";
 import Axios from "axios";
 import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
+import "animate.css";
 
 const App = () => {
   const [todo, setTodo] = useState("");
@@ -44,8 +45,14 @@ const App = () => {
       const { value: newTodo } = await Swal.fire({
         title: "Update ToDo",
         input: "text",
-        inputLabel: "New ToDo",
+        // inputLabel: "New ToDo",
         inputValue: oldTodoName,
+        showClass: {
+          popup: "animate__animated animate__fadeInDown",
+        },
+        hideClass: {
+          popup: "animate__animated animate__fadeOutUp",
+        },
         inputValidator: (value) => {
           if (!value) {
             return "You need to write something!";
@@ -105,6 +112,12 @@ const App = () => {
         Swal.fire({
           icon: "success",
           title: `${response.data}`,
+          showClass: {
+            popup: "animate__animated animate__fadeInDown",
+          },
+          hideClass: {
+            popup: "animate__animated animate__fadeOutUp",
+          },
         });
       }
     );
