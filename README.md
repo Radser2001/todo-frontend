@@ -1,3 +1,22 @@
+# ToDoApp - MERN stack
+
+### Technologies :
+
+<ul>
+    <li>MongoDB</li>
+    <li>ExpressJS</li>
+    <li>ReactJS</li>
+    <li>NodeJS</li>
+    <li>SweetAlert2</li>
+</ul>
+
+### Backend:
+
+Hosted on Heroku.
+Backend repository link: https://github.com/Radser2001/todo-backend
+
+</hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
